@@ -25,7 +25,7 @@ img {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(3, 250px);
-    /* grid-template-areas: */
+    grid-template-areas:
       "car speed"
       "car garage"
       "side wheel";

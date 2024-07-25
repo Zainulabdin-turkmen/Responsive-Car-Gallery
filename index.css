@@ -47,7 +47,7 @@ img {
 
   .img-container {
     grid-template-columns: 1fr 1fr 1fr;
-    /* grid-template-rows: 200px 300px; */
+    grid-template-rows: 200px 300px;
     /* grid-template-areas: */
       "car speed garage"
       "side wheel wheel";

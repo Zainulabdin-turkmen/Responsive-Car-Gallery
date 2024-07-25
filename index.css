@@ -54,6 +54,6 @@ img {
   }
 
   .car-5 {
-    /* grid-area: wheel; */
+    grid-area: wheel;
   }
 }

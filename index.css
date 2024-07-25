@@ -41,4 +41,10 @@ img {
 }
 
 @media only screen and (min-width: 1200px) {
+  body {
+    margin: 255px 215px;
+  }
+
+  img {
+  }
 }

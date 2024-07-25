@@ -18,7 +18,7 @@ img {
 @media only screen and (min-width: 834px) {
   body {
     margin-top: 12rem;
-    /* margin-bottom: 7.8rem; */
+    margin-bottom: 7.8rem;
   }
 
   .img-container {

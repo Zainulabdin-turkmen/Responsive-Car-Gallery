@@ -4,7 +4,7 @@ body {
   margin-top: 4rem;
 }
 
-section {
+.img-container {
   display: flex;
   flex-direction: column;
 }
@@ -16,4 +16,26 @@ img {
 }
 
 @media only screen and (min-width: 834px) {
+  body {
+    margin-top: 12rem;
+    margin-bottom: 7.8rem;
+  }
+
+  .img-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 250px);
+    grid-template-areas:
+      "car speed"
+      "car garage"
+      "side wheel";
+  }
+
+  .car-1 {
+    grid-area: car;
+  }
+
+  img {
+    height: 100%;
+  }
 }

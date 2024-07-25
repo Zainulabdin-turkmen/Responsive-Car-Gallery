@@ -45,6 +45,15 @@ img {
     margin: 255px 215px;
   }
 
-  img {
+  .img-container {
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-rows: 200px 300px; */
+    /* grid-template-areas: */
+      "car speed garage"
+      "side wheel wheel";
+  }
+
+  .car-5 {
+    /* grid-area: wheel; */
   }
 }

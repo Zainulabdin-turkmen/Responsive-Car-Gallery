@@ -32,7 +32,7 @@ img {
   }
 
   .car-1 {
-    /* grid-area: car; */
+    grid-area: car;
   }
 
   img {
